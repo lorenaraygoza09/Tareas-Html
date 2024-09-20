@@ -1,50 +1,44 @@
-<!DOCTYPE html> <!-- tipo de documento -->
-<html lang="en"> <!-- documento html - contenedor de nuestra pagina. la etiqueta html contiene un atributo lang(lenguaje) y su valor sera de en="english" -->
-<head> <!--metadatos que no son visibles en la pagina web-->
-        <meta charset="UTF-8"/> <!-- especificar la codificacion de los caracteres del documento para que se interpreten los simbolos en todos los idiomas-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--se utiliza para el responsive, pero no signfica que solo agregandola nuestra pagina web, sera responsiva-->
-        <title> Mi fanpage </title>
-        <link rel="stylesheet" href="style.css"/>
-        <!-- poner hoja de estilos -->
-</head>
-<body> <!--contenido visible del sitio web-->
-<!-- headers=encabezados h1-h6-->
-<div> 
- <h1> Fan page del rosa y sus derivados </h1>
- <img src="th.jpeg" alt="Fotografia de una pareja"/>
- <p> el color rosa es mi color favorito, me gustan muchas tonalidades por eso decidi hacer esta pagina donde te invito a formar parte de la secta del color rosa </p>
- </div>
-<!-- Span Es un elemento en línea -->
-<span> Hola PinkLover</span> 
- <span> Bienvenida al mundo del rosa</span>
- <hr>
- <h2> El rosa en mi vida </h2>
- <span> El rosa es un color bonito </span> <br> 
- <!-- br es un elemento vacío, que nos da un salto de línea -->
-<span> Hace que me sienta femenina </span> <br>
-<span> Soy feliz usando rosa </span>
-    
- <h3> Datos curiosos del rosa </h3>
- <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio odio animi temporibus omnis obcaecati eveniet ipsam est. Quasi ducimus quisquam earum porro voluptatum quam delectus nam, at recusandae velit voluptas. </p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio de selectores</title>
+    <link rel="stylesheet" href="style.css"
+  </head>
 
- <h4> Mis tonos favoritos del rosa</h4>
- <ol>
-    <li> Rosa pastel </li>
-    <li> Rosa palo </li>
-    <li> Rosa mexicano </li>
-</ol>
-<h5> Lorena's Opinion</h5>
-<ul>
-    <li> el impuesto rosa no deberia existir</li>
-    <li> deberia haber todo tipo de articulos en color rosa</li>
-    <li> el unico lugar donde no me gusta el color rosa es en la comida, dejen de experimentar con ella</li>
-</ul>
+  <body>
+    <div id="primero">
+      <p>
+        <a href="http://publicacionesaltaria.com/es/tienda/112-html-css-curso-practico.html"> 
+            HTML & CSS: Curso práctico avanzado
+        </a>
+      </p>
 
-<h5> mis objetos rosas favoritos</h5>
-<dl> <!-- dl de description list -->
-    <dt>blush </dt> <!-- dt: termino a definir  -->
-        <dd> me gustan mucho los blush rosa, en especial los que tienen brillitos y se acercan a color durazno o melon, mi favorito es el de rare beauty y uno de milk</dd> <!-- dd: definicion/descripcion -->
-</dl>
-</body>
+      <p>
+        Aunque los inicios de
+        <a href="https://es.wikipedia.org/wiki/Internet">Internet</a> se
+        remontan a los años sesenta, no ha sido hasta los años noventa cuando,
+        gracias a la Web, se ha extendido su uso por todo el mundo. En pocos
+        años, la Web ha evolucionado enormemente: se ha pasado de páginas
+        sencillas, con pocas imágenes y contenidos estáticos que eran visitadas
+        por unos pocos usuarios a <em>páginas complejas, con contenidos dinámicos que provienen de bases de
+        datos y que son visitadas por miles de usuarios al mismo tiempo</em>.
+      </p>
+    </div>
 
+    <div id="segundo" class="normal">
+      <p>
+        Todas las páginas están internamente construidas con la misma
+        tecnología, con el <em class="especial"> Lenguaje de marcas de hipertexto</em> (<span>Hypertext Markup Language</span>, <a href="https://es.wikipedia.org/wiki/HTML">HTML</a>) y con las
+        <em class="especial">Hojas de estilo en cascada</em> (<span>Cascading Style Sheets</span>, <a href="https://es.wikipedia.org/wiki/CSS">CSS</a>).
+      </p>
+
+      <p>
+        Este libro es <em>adecuado para cualquiera que tenga interés en aprender a desarrollar
+          sus propias páginas web</em>. No son necesarios conocimientos previos para aprender con este libro,
+        lo único que es necesario es saber utilizar un ordenador y saber navegar
+        por la Web.
+      </p>
+    </div>
+  </body>
 </html>
