@@ -1,0 +1,44 @@
+:root{ /* declaramos variables para reutilizar colores */
+    --color_texto: #850591;
+    --color_elementos_fieldset: #4d3e6b;
+    --color_boton: #cf83fe;
+    --color_hover: #fa83d6; 
+    --fuente_principal: "Popins";
+    --fuente_secundaria: "Verdana";
+    --color_border_fieldset: rgb(255, 0, 242); 
+    --color_elementos_fieldset: rgb(70, 69, 69); 
+    --color_titulos: rgb(79, 39, 45);
+    --color-rosapastel:#f6e3f0;
+    --color-verdelimon: rgb(224, 255, 177);
+    --color-fondo:rgb(255, 255, 241);
+}
+
+h1{
+    color: var(--color_titulos);
+    font-family: var(--fuente_principal);
+    background-color: var(--color-verdelimon);
+}
+.principal{
+    padding: 3%;
+    color: var(--color_texto);
+    font-family: var(--fuente_secundaria);
+}
+.link{
+    color: var(--color_texto);
+    background-color: var(--color-rosapastel);
+    text-decoration: none;
+}
+/* main{
+    max-width: 600px;
+    margin: auto;
+text-align: center;
+}  */  
+
+.carousel-item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
+    padding: 30px;
+}  

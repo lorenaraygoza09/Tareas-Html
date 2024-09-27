@@ -1,0 +1,105 @@
+:root{ /* declaramos variables para reutilizar colores */
+    --color_texto: #850591;
+    --color_elementos_fieldset: #4d3e6b;
+    --color_boton: #cf83fe;
+    --color_hover: #fa83d6; 
+    --fuente_principal: "Popins";
+    --fuente_secundaria: "Verdana";
+    --color_border_fieldset: rgb(255, 0, 242); 
+    --color_elementos_fieldset: rgb(70, 69, 69); 
+    --color_titulos: rgb(79, 39, 45);
+    --color-rosapastel:#f6e3f0;
+    --color-verdelimon: rgb(224, 255, 177);
+    --color-fondo:rgb(255, 255, 241);
+}
+*{
+    background-color: var(--color-fondo);
+}
+
+h1{
+    background-color: var(--color-rosapastel);
+    font-family: var(--fuente_principal);
+    color: var(--color_titulos);
+}
+.entrada{
+    font-family: var(--fuente_secundaria);
+    color: var(--color_texto);
+    text-align: justify;
+    padding: 3%;
+}
+    
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.fotoNaruto{
+width: 100px;
+height: 110px;
+text-align: center;
+}
+.fotoFMAB{
+    width: 100px;
+    height: 110px;
+    text-align: center;
+}
+.fotoMulanAnimada{
+    width: 100px;
+    height: 110px;
+text-align: center;
+}
+
+.fotoMulanLA{
+    width: 100px;
+    height: 110px;
+text-align: center;
+}
+.fotoPocahontas{
+    width: 100px;
+    height: 110px;
+text-align: center;
+}
+.fotoMamma{
+    width: 100px;
+    height: 110px;
+text-align: center;
+}
+
+.fotoOrgullo{
+    width: 100px;
+    height: 110px;
+text-align: center;
+}
+.fotoSense8{
+    width: 100px;
+    height: 110px;
+text-align: center;
+}
+
+.fotoVincenzo{
+    width: 100px;
+    height: 110px;
+text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--color_texto);
+}  
+h3{
+    text-align: center;
+    background-color: var(--color-verdelimon);
+}
+.p{
+    padding: 5%;
+    color: var(--color_texto);
+    font-family: var(--fuente_secundaria);
+}
+.cuadro{
+    text-align: justify;
+}
+.fotosPelis{
+    text-align: center;
+}
